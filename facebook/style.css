@@ -106,13 +106,11 @@ body{
        text-align: center;
        width: 360px;
        margin-top: 20px;
-   
    }
    div#forgot{
        text-align: center;
        padding-top: 20px;
        font-size: 11pt;
-   
    }
    a#passwordf{
        text-decoration: none;
