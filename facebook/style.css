@@ -11,11 +11,7 @@ body{
 div#left{
     height: 350px;
     width: 450px;
-
-    
-    margin-left: 110px;
-
-
+    padding-right:115px ;
 }
 div#right{
     height: 360px;
