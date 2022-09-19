@@ -140,8 +140,7 @@ body{
         flex-direction: column;
         justify-content: center;
         margin-top: 170px;
-
-
+        margin-left: 225px;
     }
     div#left{
         margin-left: 119px;
