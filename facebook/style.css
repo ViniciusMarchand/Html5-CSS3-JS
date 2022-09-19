@@ -134,11 +134,13 @@ body{
        font-weight: bold;
    
    }
-   
+
    @media(max-width:900px){
     .container{
         flex-direction: column;
         margin-top: 80px;
+        justify-content: center;
+        margin-top: 160px;
     }
     div#left{
         margin-left: 119px;
