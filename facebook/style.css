@@ -1,47 +1,53 @@
 body{
-    overflow-x: hidden;
-    background-color:#F0F2F5;
+ background-color:#F0F2F5;
+ font-family: Arial, Helvetica, sans-serif;
 }
-div#principal{
-    width: 1400px;
+.container{
+    display: flex;
+    height: 45vw;
+    justify-content: center;
+    align-items: center;
 }
-div#principal div#facebook{
-    width: 1300;
+div#left{
+    height: 350px;
+    width: 450px;
+
+    
+    margin-left: 110px;
+
+
 }
-h1#logo{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #1877F2;
-    font-size: pt;
-    margin-top: 200px;
-    margin-left: 150px;
+div#right{
+    height: 360px;
+    width: 392px;
+
+}
+div#info{
+    background-color: white;
+    height: 345px;
+    width: 395px;
+    border-radius: 9px;
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.103);
+    
     
 }
 img{
-    height: 50px;
-    margin-top: 200px;
-    margin-left: 150px;
+    padding-top: 67px;
+    width: 242px;
+    display: block;
 }
-h2#frase{
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    font-size: 28px;
-    margin-left: 150px;
-    margin-top: -170px;
-    line-height: 32px;
-    width: 500px;
+div#text{
+    font-size: 20pt;
+    padding-top: 25px;
+
+
 }
-div#Secundario{
-    background-color: white;
-    height: 350px;
-    width: 390px;
-    float: right;
-    margin-top: -330px;
-    margin-right: 200px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.089);    
+div#create{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 11pt;
 }
-input#email{
+div#email{
     font-size: 17px;
     padding: 14px 16px;
     width: 330px;
@@ -52,7 +58,18 @@ input#email{
   
     margin-top: 20px;
     margin-left: 10px;
+}
+input#email{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid rgba(170, 170, 170, 0.486);
     
+    line-height: 16px;
+    margin-top: 20px;
+    
+
 }
 input#senha{
     font-size: 17px;
@@ -60,58 +77,64 @@ input#senha{
     width: 330px;
     border-radius: 6px;
     border: 1px solid rgba(170, 170, 170, 0.486);
-    color: #1d21290a;
     line-height: 16px;
-   
     margin-top: 20px;
-    margin-left: 10px;
+   
 }
-input#entrar{
+input#login{
     border-radius: 6px;
     font-size: 20px;
     line-height: 10px;
     padding: 16px;
     height: 50px;
     width: 360px;
-    margin-left: 13px;
     margin-top: 10px;
     background-color: #166FE5;
     border-color: #166FE5;
     color: white;
     border-color: #1670e500;
+    font-weight: bold;
 }
-p#esqueceu{
+.infos{
     text-align: center;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #1877f2;
-    font-size: 11pt;
 }
-a{
+a#page{
     text-decoration: none;
+    color: black;
+}
+a#page:hover{
+    text-decoration: underline;
+    color: black;
 }
 hr{
     text-align: center;
     width: 360px;
-    margin-top: 30px;
-    color: #dadde111;
-}
-input#criar{
-    border-radius: 6px;
-    font-size: 20px;
-    line-height: 10px;
-    padding: 16px;
-    height: 50px;
-    width: 180px;
-    margin-left: 100px;
+    margin-top: 20px;
 
+}
+div#forgot{
     text-align: center;
-    background-color: #36A420;
+    padding-top: 20px;
+    font-size: 11pt;
+
+}
+a#passwordf{
+    text-decoration: none;
+    color: #1877F4;
+}
+a#passwordf:hover{
+    text-decoration: underline;
+}
+input#account{
+    margin-top: 10px;
+    border-radius: 6px;
+    font-size: 12pt;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: #42B72A;
     border-color: #36a42000;
     color: white;
-}
-div#final{
-    float: right;
-    padding-top: 50px;
-   
+    font-weight: bold;
+
 }
