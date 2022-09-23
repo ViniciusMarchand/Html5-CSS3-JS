@@ -59,4 +59,7 @@ function turn(id) {
         }
     }
 }
+function restart(){
+    window.location.reload();
+}
 
