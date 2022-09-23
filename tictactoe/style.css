@@ -122,15 +122,8 @@ input{
     .container {
         justify-content: center;
         margin-top: 180px;
+        height: 110vw;
 
     } 
-    body{
-    width: 98vw;
+ 
     }
-    input{
-        margin-top: 175px;
-    }
-    div#resultado{
-        padding-bottom: 40px;
-    }
-}
