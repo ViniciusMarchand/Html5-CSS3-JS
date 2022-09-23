@@ -1,6 +1,6 @@
 body {
     background-color: #14BDAC;
-    
+
 }
 
 .container {
@@ -12,75 +12,93 @@ body {
     font-size: 150px;
     text-align: center;
 }
+
 /*linha1*/
-div#quadrado11{
+div#quadrado11 {
     height: 150px;
     width: 150px;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    
+
 }
-div#quadrado12{
+
+div#quadrado12 {
     height: 150px;
     width: 150px;
     border-top: 2px solid black;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
 }
-div#quadrado13{
+
+div#quadrado13 {
     height: 150px;
     width: 150px;
     border-top: 2px solid black;
     border-right: 2px solid black;
 }
+
 /*linha2*/
-div#quadrado21{
+div#quadrado21 {
     height: 150px;
     width: 150px;
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
 }
-div#quadrado22{
+
+div#quadrado22 {
     height: 150px;
     width: 150px;
     border: 2px solid black;
 }
-div#quadrado23{
+
+div#quadrado23 {
     height: 150px;
     width: 150px;
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-top: 2px solid black;
 }
+
 /*linha3*/
-div#quadrado31{
+div#quadrado31 {
     height: 150px;
     width: 150px;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
 }
-div#quadrado32{
+
+div#quadrado32 {
     height: 150px;
     width: 150px;
     border-top: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
 }
-div#quadrado33{
+
+div#quadrado33 {
     height: 150px;
     width: 150px;
-    border-top:2px solid black;
+    border-top: 2px solid black;
     border-left: 2px solid black;
 }
-img{
-   max-width: 45px;
-    max-height:  45px;
+
+img {
+    max-width: 45px;
+    max-height: 45px;
     padding-top: 20px;
 }
-div#resultado{
+
+div#resultado {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 70px;
 }
 
+@media(max-width:900px) {
+
+    .container {
+        justify-content: center;
+        margin-top: 170px;
+    }
+}
