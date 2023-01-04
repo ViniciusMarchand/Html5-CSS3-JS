@@ -71,7 +71,7 @@ function turn(id) {
             modo = "end"
         }
         
-        if (contador == 9) {
+        else if (contador == 9) {
             document.getElementById("resultado").innerHTML = `TIE`
             modo = "end"
         }
