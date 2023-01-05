@@ -38,16 +38,16 @@ function turn(id) {
             if (quadrado[i] == quadrado[i + 4] && quadrado[i + 4] == quadrado[i + 8]) {
                 end = true
             }
-            if (quadrado[i+2] == quadrado[i + 4] && quadrado[i + 4] == quadrado[i + 6]) {
+            if (quadrado[i + 2] == quadrado[i + 4] && quadrado[i + 4] == quadrado[i + 6]) {
                 end = true
             }
         }
-    }
-    if(end == true){
-        document.getElementById("resultado").innerHTML = `PLAYER ${opcao} WON!`
-    }
-    if(parimpar == 9 && end == false){
-        document.getElementById("resultado").innerHTML = `TIE`
+        if (end == true) {
+            document.getElementById("resultado").innerHTML = `PLAYER ${opcao} WON!`
+        }
+        if (parimpar == 9 && end == false) {
+            document.getElementById("resultado").innerHTML = `TIE`
+        }
     }
 }
 function restart() {
