@@ -20,7 +20,7 @@ body {
 }
 
 /*linha1*/
-div#quadrado11 {
+div#q1 {
     height: 150px;
     width: 150px;
     border-right: 2px solid black;
@@ -28,7 +28,7 @@ div#quadrado11 {
 
 }
 
-div#quadrado12 {
+div#q2 {
     height: 150px;
     width: 150px;
     border-top: 2px solid black;
@@ -36,7 +36,7 @@ div#quadrado12 {
     border-bottom: 2px solid black;
 }
 
-div#quadrado13 {
+div#q3 {
     height: 150px;
     width: 150px;
     border-top: 2px solid black;
@@ -44,7 +44,7 @@ div#quadrado13 {
 }
 
 /*linha2*/
-div#quadrado21 {
+div#q4 {
     height: 150px;
     width: 150px;
     border-left: 2px solid black;
@@ -52,13 +52,13 @@ div#quadrado21 {
     border-bottom: 2px solid black;
 }
 
-div#quadrado22 {
+div#q5 {
     height: 150px;
     width: 150px;
     border: 2px solid black;
 }
 
-div#quadrado23 {
+div#q6 {
     height: 150px;
     width: 150px;
     border-left: 2px solid black;
@@ -67,14 +67,14 @@ div#quadrado23 {
 }
 
 /*linha3*/
-div#quadrado31 {
+div#q7 {
     height: 150px;
     width: 150px;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
 }
 
-div#quadrado32 {
+div#q8 {
     height: 150px;
     width: 150px;
     border-top: 2px solid black;
@@ -82,7 +82,7 @@ div#quadrado32 {
     border-bottom: 2px solid black;
 }
 
-div#quadrado33 {
+div#q9 {
     height: 150px;
     width: 150px;
     border-top: 2px solid black;
