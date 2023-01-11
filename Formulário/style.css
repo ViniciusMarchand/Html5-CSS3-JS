@@ -38,7 +38,7 @@ body::before{
 form{
     margin-top: 38px;
     background: #FAFAFC;
-    border-radius: 8px;
+    border-radius: 8px, 8px, 0, 0;
     min-height: 300px;
     padding: 64px;
 
@@ -128,4 +128,37 @@ fieldset legend{
 }
 .checkbox-wrapper label {
     margin: 0;
+}
+
+footer{
+    background: #F0F0F4;
+
+    height: 75px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px 64px;
+
+    margin-bottom: 100px;
+    border-top: 1px solid #D6D6D6;
+    border-radius: 0 0 8px 8px;
+}
+footer .button{
+    height: 56px;
+    background: #04D361;
+    border: 0;
+    border-radius: 8px;
+
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    
+
+}
+
+footer .button:hover{
+    background: #08c05b;
 }
